@@ -1,4 +1,6 @@
 package Factory;
+import Factory.Developer;
+import Visitor.Test;
 
 public class JavaDeveloper implements Developer{
 
@@ -6,4 +8,5 @@ public class JavaDeveloper implements Developer{
     public void writeCode() {
         System.out.println("Java developer write java code...");
     }
+
 }
