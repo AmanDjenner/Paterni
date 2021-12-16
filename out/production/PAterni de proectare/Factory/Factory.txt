@@ -1,0 +1,16 @@
+Factory Method
+=================================================================================================================
+Scop:
+
+Crearea unei interfețe care construiește un obiect.
+În asa mod ca alegerea instanței(exemplearului) carei clase va fi creat, rămâne dupa clasele care implementează
+această interfață.
+=================================================================================================================
+Pentru ce se utilizeaza:
+
+Pentru a delega instanțierea unei alte clase.
+=================================================================================================================
+Exemplu:
+- cind prealabil nu se cunoaste ce instanțe de clasă vor trebui create;
+- clasa este concepută în așa fel încât obiectele pe care le creează să aibă proprietățile unei anumite clase.
+=================================================================================================================
