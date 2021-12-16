@@ -1,0 +1,19 @@
+Visitor
+=================================================================================================================
+Scop:
+
+Descrie acțiuni care sunt efectuate cu fiecare obiect dintr-o anumită structură
+=================================================================================================================
+Pentru ce se utilizeaza:
+
+pentru a descrie operații care se efectuează cu fiecare obiect dintr-o anumită structură.
+Ne permite să definim o nouă operație fără a modifica clasele acestor obiecte.
+=================================================================================================================
+Exemplu:
+- structura conține obiecte din mai multe clase cu interfețe diferite și trebuie să realizăm asupra lor
+  operațiuni care depind de anumite clase ;
+- este necesar să se efectueze operații nelegate asupra obiectelor care fac parte din structură și nu dorim
+   să adăugăm aceste operații la clase;
+- clasele care stabilesc structura obiectelor se schimbă rar, dar adesea se adaugă noi operații asupra acestei
+  structuri.
+=================================================================================================================

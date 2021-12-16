@@ -1,0 +1,17 @@
+Adapter
+=================================================================================================================
+Scop:
+
+Conversia interfeței unei clase în interfața clasei de care are nevoie clientul.
+=================================================================================================================
+Pentru ce se utilizeaza:
+
+Pentru a asigura colaborarea claselor ale căror interfețe nu sunt compatibile.
+=================================================================================================================
+Exemplu:
+- interfața clasei pe care dorim să o folosim nu ne satisface nevoile;
+- este nevoie de o clasă care trebuie să interacționeze cu clase necunoscute sau care nu au
+  legătură cu ea;
+- este necesar să se utilizeze mai multe subclase existente, dar este nepotrivit să se utilizeze metodele
+  acestor clase creind noi subclase.
+=================================================================================================================

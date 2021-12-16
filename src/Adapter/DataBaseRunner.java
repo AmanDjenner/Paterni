@@ -2,7 +2,7 @@ package Adapter;
 
 public class DataBaseRunner {
     public static void main(String[] args) {
-        Database database = null;
+        Database database = new AdapterJavaToDatabase();
 
         database.insert();
         database.update();
