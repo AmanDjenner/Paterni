@@ -2,11 +2,9 @@ package Factory;
 
 public class Program {
     public static void main(String[] args) {
-        JavaDeveloper javaDeveloper = new JavaDeveloper(); //problema este ca mereu trebuie in client sa creem
-                                                            // instanta claselor JavaDeveloper si CppDeveloper
-        javaDeveloper.writeCode();
-//        CppDeveloper cppDeveloper = new CppDeveloper();
-//        cppDeveloper.writeCppCode();
-
+       DeveloperFactory developerFactory = new JavaDeveloperFactory(); //schimbam JavaDeveloperFactory pe CppDeveloperFactory
+       Developer developer = developerFactory.createDeveloper();
+       //si chemam metoda writecode
+        developer.writeCode();
     }
 }
