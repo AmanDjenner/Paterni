@@ -11,3 +11,6 @@ public class DataBaseRunner {
 
     }
 }
+//Database a acceptat metodele din javaApplication
+//de la inceput nu puteam folosi impreuna javaApplictoin si baza de date, dar datorita adapterului acum am
+// posibilitatea
